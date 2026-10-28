@@ -1,0 +1,25 @@
+
+=== examples/sample-delegates.csv ===
+  delegates 80   distinct companies 20
+  titles: A economic buyer 22 | B champion 18 | C other 40
+
+  Revenue bar: $1B
+  definition                        rev only  rev+title  % below bar  blanks
+  face/blanks-excluded                    42         21          33%      17
+  face/blanks-as-small                    42         21          48%      17
+  fx/blanks-excluded                      44         23          30%      17
+  fx/blanks-as-small                      44         23          45%      17
+
+  Cost per ICP prospect at all-in cost $41,000:
+    face/blanks-excluded             rev only   $     976/prospect   -> needs 1.63% to close
+    face/blanks-excluded             rev+title  $   1,952/prospect   -> needs 3.25% to close
+    face/blanks-as-small             rev only   $     976/prospect   -> needs 1.63% to close
+    face/blanks-as-small             rev+title  $   1,952/prospect   -> needs 3.25% to close
+    fx/blanks-excluded               rev only   $     932/prospect   -> needs 1.55% to close
+    fx/blanks-excluded               rev+title  $   1,783/prospect   -> needs 2.97% to close
+    fx/blanks-as-small               rev only   $     932/prospect   -> needs 1.55% to close
+    fx/blanks-as-small               rev+title  $   1,783/prospect   -> needs 2.97% to close
+
+  (break-even cost per won customer = $60,000)
+
+  Pick ONE definition and apply it to every event, or the comparisons mean nothing.
