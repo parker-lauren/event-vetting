@@ -83,4 +83,4 @@ Drop the folder into your Claude skills (Claude app → Settings → Capabilitie
 
 ---
 
-*Part of my [event ops toolkit](https://github.com/parker-lauren): vet the event → [clean the leads](https://github.com/parker-lauren/event-contact-list) → [debrief honestly](https://github.com/parker-lauren/event-debrief). All figures and data here are illustrative.*
+*Part of my [event ops toolkit](https://github.com/parker-lauren): [run the program](https://github.com/parker-lauren/event-program-os) → **vet the event** → [enrich the leads](https://github.com/parker-lauren/webinar-lead-enrichment) → [clean the list](https://github.com/parker-lauren/event-contact-list) → [debrief honestly](https://github.com/parker-lauren/event-debrief). All figures and data here are illustrative.*
